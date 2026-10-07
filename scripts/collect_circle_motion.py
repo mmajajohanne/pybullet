@@ -91,7 +91,7 @@ theoretical_speed = 2 * np.pi * RADIUS / PERIOD
 print(f"Teoretisk sirkelhastighet: {theoretical_speed:.3f} m/s")
 
 np.savez(
-    "circle_motion.npz",
+    "data/circle_motion.npz",
     t=timestamps,
     pos=positions,
     commanded=commanded_positions,

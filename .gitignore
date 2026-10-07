@@ -24,4 +24,7 @@ logs/
 
 # PyBullet
 *.bullet
-EOF
+EOFdata/*.npz
+
+# maja filer
+pick_and_place_maja.py
